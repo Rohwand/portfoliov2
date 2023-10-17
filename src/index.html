@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Robin CHARRE</title>
+    <meta name="description" content="Portfolio de Robin CHARRE avec mon CV et mes réalisations">
+    <link rel="stylesheet" href="./scss/index.scss">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        
+        <nav class="header__nav container">
+            <a class="header__nav__img" href="/">Robin CHARRE</a>
+            <div class="header__nav__hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="header__nav__main">
+                <li class="header__nav__main__item"><a class="header__nav__main__item__link" href="#pres">Présentation</a></li>
+                <li class="header__nav__main__item"><a class="header__nav__main__item__link" href="#">Réalisations</a></li>
+                <li class="header__nav__main__item"><a class="header__nav__main__item__link" href="#">Compétences</a></li>
+                <li class="header__nav__main__item"><a class="header__nav__main__item__link" href="#">Contact</a></li>
+                <li class="header__nav__main__item"><a class="header__nav__main__item__link" href="#">Mon CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container" id="pres">
+        <section class="presentation">
+            <h2 class="section-title">PRESENTATION</h2>
+            <p>Après avoir occupé un poste de conseiller médiateur numérique pendant plus de 2 ans au sein de Tremplin, je souhaiterais revenir dans le domaine du développement web.</p>
+        </section>
+        <section>
+            <h2 class="section-title">REALISATIONS</h2>
+            <p>Développeur Web en formation</p>
+        </section>
+        <section>
+            <h2 class="section-title">COMPETENCES</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>ACCESSIBILITE</li>
+                <li>Javascript</li>
+                <li>SQL</li>
+                <li>Node.JS</li>
+                <li>React</li>
+                <li>PHP</li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="section-title">Mon CV</h2>
+            <!-- <div id="divimg"> -->
+                <a href="./img/CV_Robin_CHARRE.pdf" target="_blank">CV téléchargeable</a>
+            <!-- </div> -->
+        </section>
+        <section class="contact">
+            <h2 class="section-title">Me contacter</h2>
+            <form method="get" class="contact__form">
+                <label for="name">Votre nom</label>
+                <input type="text" id="name">
+                <label for="mail">Votre adresse mail</label>
+                <input type="email" id="mail">
+                <label for="message">Votre message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </form>
+        </section>    
+    </main>
+
+    <footer class="footer">
+        <a class="footer__a fa-brands fa-github" href="/"></a>
+        <a class="footer__a fa-brands fa-linkedin-in" href="/"></a>
+        <a class="footer__a fa-brands fa-instagram" href="/"></a>
+    </footer>
+   <!-- <script src="./index.js"></script> -->
+</body>
+</html>
